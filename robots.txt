@@ -1,0 +1,4 @@
+User-agent: *
+
+Allow: /
+Sitemap: https://ngaji-together.netlify.app/sitemap.xml
