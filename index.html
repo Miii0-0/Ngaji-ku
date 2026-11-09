@@ -15,14 +15,20 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="ngaji.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
       <div class="wrap">
         <nav>
           <a href="#" class="logo">
-            <img class="img" src="/islamic-logo-designbg.png">
+            <picture>
+              <source srcset="/converted.webp" type="image/webp" />
+              <img class="img" src="/islamic-logo-designbg.png" />
+            </picture>
           </a>
           <button
             class="burger"
@@ -119,9 +125,10 @@
       <div class="wrap">
         <div>
           <h2 style="font-size: 0px">
-            Belajar Mengaji agar Fasih Dalam <span style="font-size: 35px;">Membaca Al-Qur’an</span>
+            Belajar Mengaji agar Fasih Dalam
+            <span style="font-size: 35px">Membaca Al-Qur’an</span>
           </h2>
-          <p style="font-size: 15px; color: black;">
+          <p style="font-size: 15px; color: black">
             Sebelum mempelajari cara membaca Qur’an, Anda diajak mengenal
             sejarah Qur’an dari wahyu pertama diturunkan kepada Rasulullah
             Sallallahu’alaihi Wasalam hingga pemberian i’jam dan harokat yang
@@ -281,7 +288,16 @@
       <div class="wrap">
         <div class="fg">
           <div>
-            <a ></a><img class="img" src="/islamic-logo-designbg.png"</a>
+            <a href="#home">
+              <picture>
+                <source srcset="/converted.webp" type="image/webp" />
+                <img
+                  class="img"
+                  src="/islamic-logo-designbg.png"
+                  alt="Ngaji-ku"
+                />
+              </picture>
+            </a>
           </div>
           <div>
             <h4>Tentang Kami</h4>
@@ -303,33 +319,78 @@
           <div>
             <h4>Social</h4>
             <div class="soc">
-              <a href="#" aria-label="Facebook"><svg xmlns="http://w3.org" viewBox="0 0 24 24" width="40" height="40" fill="#1877F2">
-  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-</svg>
-</a><a href="#" aria-label="Instagram"><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-  <svg xmlns="http://w3.org" viewBox="0 0 512 512" style="width: 40px; height: 40px;">
-    <defs>
-      <!-- Instagram Gradient Background -->
-      <radialGradient id="ig-grad" cx="30%" cy="110%" r="130%">
-        <stop offset="0%" stop-color="#feda75" />
-        <stop offset="25%" stop-color="#fa7e1e" />
-        <stop offset="50%" stop-color="#d62976" />
-        <stop offset="75%" stop-color="#962fbf" />
-        <stop offset="100%" stop-color="#4f5bd5" />
-      </radialGradient>
-    </defs>
-    <!-- Background Camera Shape -->
-    <rect width="512" height="512" rx="115" fill="url(#ig-grad)" />
-    <!-- White Camera Outline -->
-    <rect x="96" y="96" width="320" height="320" rx="80" fill="none" stroke="#ffffff" stroke-width="30" />
-    <!-- Lens Circle -->
-    <circle cx="256" cy="256" r="70" fill="none" stroke="#ffffff" stroke-width="30" />
-    <!-- Flash Dot -->
-    <circle cx="360" cy="152" r="22" fill="#ffffff" />
-  </svg>
-</a>
-</a><a href="#" aria-label="Twitter"><i class="fa fa-twitter" style="font-size:40px"></i></a
-              ><a href="#" aria-label="YouTube"><i class="fa fa-youtube-play" style="font-size:48px; color:red;"></i></a>
+              <a href="#" aria-label="Facebook"
+                ><svg
+                  xmlns="http://w3.org"
+                  viewBox="0 0 24 24"
+                  width="40"
+                  height="40"
+                  fill="#1877F2"
+                >
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  />
+                </svg> </a
+              ><a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <svg
+                  xmlns="http://w3.org"
+                  viewBox="0 0 512 512"
+                  style="width: 40px; height: 40px"
+                >
+                  <defs>
+                    <!-- Instagram Gradient Background -->
+                    <radialGradient id="ig-grad" cx="30%" cy="110%" r="130%">
+                      <stop offset="0%" stop-color="#feda75" />
+                      <stop offset="25%" stop-color="#fa7e1e" />
+                      <stop offset="50%" stop-color="#d62976" />
+                      <stop offset="75%" stop-color="#962fbf" />
+                      <stop offset="100%" stop-color="#4f5bd5" />
+                    </radialGradient>
+                  </defs>
+                  <!-- Background Camera Shape -->
+                  <rect
+                    width="512"
+                    height="512"
+                    rx="115"
+                    fill="url(#ig-grad)"
+                  />
+                  <!-- White Camera Outline -->
+                  <rect
+                    x="96"
+                    y="96"
+                    width="320"
+                    height="320"
+                    rx="80"
+                    fill="none"
+                    stroke="#ffffff"
+                    stroke-width="30"
+                  />
+                  <!-- Lens Circle -->
+                  <circle
+                    cx="256"
+                    cy="256"
+                    r="70"
+                    fill="none"
+                    stroke="#ffffff"
+                    stroke-width="30"
+                  />
+                  <!-- Flash Dot -->
+                  <circle cx="360" cy="152" r="22" fill="#ffffff" />
+                </svg>
+              </a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fa fa-twitter" style="font-size: 40px"></i></a
+              ><a href="#" aria-label="YouTube"
+                ><i
+                  class="fa fa-youtube-play"
+                  style="font-size: 48px; color: red"
+                ></i
+              ></a>
             </div>
           </div>
         </div>
